@@ -77,6 +77,11 @@ body * {
   z-index: 1;
   top: 50%;
   transform: translateY(-50%);
+  animation: deslizar-volta 0.3s;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--cor-de-fundo-switch-houver);
 }
 
 #switch span {
@@ -90,8 +95,7 @@ body * {
 }
 
 .ligth #switch button {
-  right: 0;
-  left: initial;
+  animation: deslizar-ida 0.3s forwards;
 }
 
 ul {
@@ -154,5 +158,22 @@ footer {
   }
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+@keyframes deslizar-ida {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes deslizar-volta {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0%;
   }
 }
