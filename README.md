@@ -2,7 +2,7 @@
 
 <p align="center">
 Bem-vindo ao meu <a href="https://hi-giih.github.io/profile/#"> portfólio! </a>
-<br> Sou sou apaixonada por tecnologia isso motra pouco do meu trabalho.
+<br> Sou sou apaixonada por tecnologia e isso é para mostrar pouco do meu trabalho.
 </p>
 
 <p align="center">
